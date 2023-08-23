@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+.main-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(198, 55, 247, 0.7), rgba(247, 55, 154, 0.7));
+}
+.main-card-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(#F7379A,#E23AFD);
+    border-radius: 20px;
+}
+h2{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 50px;
+    
+}
+h2::after{
+    content: "♥";
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid none;
+
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+
+.btn{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2.5vh;
+    width: 40%;
+    height: 10%;
+    border-radius: 30px;
+    border: 0 solid #000;
+    background-color: #fff;
+    color:rgba(247, 55, 154, 0.7) ;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.btn:hover{
+background-color: #EB37F7;
+color: #fff;
+border: 1px solid #fff;
+}
+i{
+    margin-top: 5px;
+}

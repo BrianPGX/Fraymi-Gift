@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@500&family=Kanit:wght@300;800;900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-card">
+        <div class="main-card-elements">
+            <h2>Fraymi</h2>
+            <div class="image">
+                <img src="img/6.PNG" alt="">
+            </div>
+            <a href="#" class="btn" onclick="playAudio()"><i class="fa fa-play"></i></a>
+        </div>
+    </div>
+    <audio id="myAudio">
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("myAudio");
+            audio.play();
+        }
+    </script>
+</body>
+</html>
